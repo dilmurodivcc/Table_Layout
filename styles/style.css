@@ -26,19 +26,31 @@ h1 {
   color: #015560;
   font-weight: 900;
 }
-h3{
-color: #006e7d;
-font-weight: 600;
-font-size: 24px;
+h3 {
+  color: #006e7d;
+  font-weight: 600;
+  font-size: 24px;
+}
+a{
+  color: #21828f;
+  font-weight: 600;
+  font-size: 18px;
+  display: inline-block;
+  margin-top: 20px;
+  text-decoration: none;
+}
+a span{
+  text-decoration: underline;
 }
 
-.container{
-    margin: 0 200px 50px;
-    background-color: transparent;
-    padding: 30px;
-    backdrop-filter: blur(80px);
-    border-radius: 20px;
-    border: 2px dashed #006e7d;
+
+.container {
+  margin: 0 200px 50px;
+  background-color: transparent;
+  padding: 30px;
+  backdrop-filter: blur(80px);
+  border-radius: 20px;
+  border: 2px dashed #006e7d;
 }
 .scroll-container {
   display: flex;
@@ -62,7 +74,7 @@ font-size: 24px;
 }
 
 .scroll-container img:hover {
-  transform: scale(0.9) ;
+  transform: scale(0.9);
 }
 .scroll-container::-webkit-scrollbar {
   display: none;
