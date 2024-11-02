@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="shortcut icon" href="../images/icon.png" type="image/x-icon">
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600);
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        background: #105469;
+        font-family: "Open Sans", sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        overflow: hidden;
+      }
+      table {
+        background: #012b39;
+        border-radius: 10px;
+        border-collapse: collapse;
+        width: 80vw;
+        height: 80vh;
+      }
+      th {
+        border-bottom: 1px solid #364043;
+        color: #e2b842;
+        font-size: 16px;
+        font-weight: 600;
+        padding: 20px 20px;
+        text-align: left;
+      }
+      td {
+        color: #fff;
+        font-weight: 400;
+        padding: 10px 20px;
+      }
+      .disabled td {
+        color: #4f5f64;
+      }
+      tbody tr {
+        transition: background 0.25s ease;
+      }
+      tbody tr:hover {
+        background: #014055;
+      }
+      .back-button {
+        position: absolute;
+        top: 20px;
+        right: 40px;
+        font-size: 24px;
+        color: #fff;
+        text-decoration: none;
+        display: grid;
+        place-items: center;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        box-shadow: 0 0 5px rgb(255, 255, 255);
+      }
+
+      .back-button:hover {
+        background-color: rgba(255, 255, 255, 0.1);
+      }
+    </style>
+  </head>
+  <body>
+    <a class="back-button" href="../index.html"
+      ><i class="fa-solid fa-angle-left"></i
+    ></a>
+    <table>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Goes By</th>
+          <th>Gender</th>
+          <th>Class</th>
+          <th>Alive</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Malcolm</td>
+          <td>Reynolds</td>
+          <td>Mal, Cap'n</td>
+          <td>M</td>
+          <td>Captain</td>
+          <td>
+            Yes
+            <tr>
+              <td>2</td>
+              <td>Zoe</td>
+              <td>Washburn</td>
+              <td>Zoe</td>
+              <td>F</td>
+              <td>First Mate</td>
+              <td>
+                Yes
+                <tr class="disabled">
+                  <td>3</td>
+                  <td>Hoban</td>
+                  <td>Washburn</td>
+                  <td>Wash</td>
+                  <td>M</td>
+                  <td>Pilot</td>
+                  <td>
+                    No
+                    <tr>
+                      <td>4</td>
+                      <td>Kaylee</td>
+                      <td>Frye</td>
+                      <td>Kaylee</td>
+                      <td>F</td>
+                      <td>Mechanic</td>
+                      <td>
+                        Yes
+                        <tr>
+                          <td>5</td>
+                          <td>Jayne</td>
+                          <td>Cobb</td>
+                          <td>Jayne</td>
+                          <td>M</td>
+                          <td>Muscle</td>
+                          <td>
+                            Yes
+                            <tr class="disabled">
+                              <td>6</td>
+                              <td>[unknown]</td>
+                              <td>Book</td>
+                              <td>Shepherd</td>
+                              <td>M</td>
+                              <td>Passenger</td>
+                              <td>
+                                No
+                                <tr>
+                                  <td>7</td>
+                                  <td>Simon</td>
+                                  <td>Tam</td>
+                                  <td>Simon</td>
+                                  <td>M</td>
+                                  <td>Passenger</td>
+                                  <td>
+                                    Yes
+                                    <tr>
+                                      <td>8</td>
+                                      <td>River</td>
+                                      <td>Tam</td>
+                                      <td>River</td>
+                                      <td>F</td>
+                                      <td>Passenger</td>
+                                      <td>
+                                        Yes
+                                        <tr class="disabled">
+                                          <td>9</td>
+                                          <td>River</td>
+                                          <td>Tam</td>
+                                          <td>River</td>
+                                          <td>F</td>
+                                          <td>Passenger</td>
+                                          <td>
+                                            Yes
+                                            <tr>
+                                              <td>10</td>
+                                              <td>River</td>
+                                              <td>Tam</td>
+                                              <td>River</td>
+                                              <td>F</td>
+                                              <td>Passenger</td>
+                                              <td>Yes</td>
+                                            </tr>
+                                          </td>
+                                        </tr>
+                                      </td>
+                                    </tr>
+                                  </td>
+                                </tr>
+                              </td>
+                            </tr>
+                          </td>
+                        </tr>
+                      </td>
+                    </tr>
+                  </td>
+                </tr>
+              </td>
+            </tr>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
